@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+}
+.common{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border:4px solid black;
+    display: block;
+    line-height: 100px;                
+    text-align: center;  
+    border-radius: 50px;    
+    animation: bouncing 1.5s ease-in  infinite alternate;          
+}
+@keyframes bouncing {
+    from{
+        transform:translate(0px, 0px);  
+    }
+    to{
+        transform:translate(0px,490px);  
+        
+    }
+}
+.a1{                
+    background-color: mediumaquamarine;                
+}
+.a{
+    animation-delay: 0.1s;
+    background-color: tomato;                
+}
+.b{
+    animation-delay: 0.2s;
+    background-color: orange;
+}
+.c{
+    animation-delay: 0.3s;
+    background-color: dodgerBlue;
+}.d{
+    animation-delay: 0.4s;
+
+    background-color: mediumSeaGreen;
+}.e{
+    animation-delay: 0.5s;
+    background-color: Gray;
+}.f{
+    animation-delay: 0.6s;
+    background-color: SlateBlue;
+}.g{
+    animation-delay: 0.7s;
+    background-color: AntiqueWhite;
+}.h{
+    animation-delay: 0.8s;
+    background-color: Aqua;
+}.i{
+    animation-delay: 0.9s;
+    background-color: Aquamarine;
+}.j{
+    animation-delay: 1s;
+    background-color: Beige;
+}
+
